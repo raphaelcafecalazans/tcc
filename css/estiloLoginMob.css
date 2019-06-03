@@ -1,0 +1,110 @@
+@media(max-width:600px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 13vw;
+		height:13vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 1vw;
+		margin-top: 3vw;
+
+		transition: none;
+	}
+
+	#back:hover{
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+	    /*Definindo as configurações de largura e altura*/
+	    width: 77vw;
+	    height:80vw;
+
+	    /*Borda do quadro*/
+	  	border-width: 0.70vw;    
+	}
+
+	h1{  /*Titulo (Cadastro)*/
+		font-size: 9vw;
+		text-align:center;
+	}
+
+	#msgContent{
+		/*Definindo as configurações de largura e altura*/
+		width: 50.510vw;
+		height:6vw;
+
+		/*Altura do texto em relação a div*/
+		line-height: 6vw;
+
+		/*Tamanho da fonte*/
+		font-size: 2.70vw;
+
+		/*Subindo 10px por padrão de espaço entre objetos*/
+		margin-top:-0.70vw;
+	}
+
+	input[type=text], input[type=password]{
+		height:6vw;
+		width:50vw;
+
+		font-size:2.70vw;
+
+		transition: none;
+
+		text-align:center;
+	}
+
+	input[type=submit]{
+		height:7vw;
+		width:50.515vw;
+
+		transition: none;
+
+		font-size:2.70vw
+	}
+
+	input[type=submit]:hover{
+		border: none;
+		background: #CD0000;
+		color: #F0FFFF;
+	}
+
+	input[type=submit]:active{
+		/*Cores do botão*/
+		background: #F0FFFF;
+		color: #CD0000;
+	}
+
+	a{   /*Link do login*/
+
+		/*Tirando a decoração de texto padrão do HTML*/
+		text-decoration: none;
+
+		/*Cor do link*/
+		color: #CD0000;
+	}
+
+	a:hover{
+		/*Tipo de decoração quando hover*/
+		text-decoration: none;
+	}
+
+	#pCadastro{
+		/*Tamanho da fonte*/
+		font-size: 2.70vw;
+
+	}
+}

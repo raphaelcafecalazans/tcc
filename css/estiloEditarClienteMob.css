@@ -1,0 +1,79 @@
+@media(max-width:600px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	a #back{
+		/*Altura e largura do botão*/
+		width: 14vw;
+		height:14vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 1.50vw;
+		margin-top: 0.5vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+		/*Altura e largura*/
+	    width: 90vw;
+	    height: 100vw;
+
+	    /*Sombra do quadro*/
+	    box-shadow: 0 0 1vw black;
+
+	    margin-top:4vw;
+
+	    border-radius:1.20vw;
+	}
+
+	h2{
+		font-size:5vw;
+	}
+
+	td p{
+		font-size:3.30vw;
+	}
+
+	form input[type=text]{
+		transition:none;
+		font-size:3.30vw;
+
+		width:50vw;
+		height:7vw;
+	}
+
+	form input[type=email]{
+		transition:none;
+		font-size:3.30vw;
+
+		width:50vw;
+		height:7vw;
+	}
+
+	form input[type=submit]#btnEditar{
+		transition:none;
+		font-size:3.30vw;
+
+		width:50vw;
+		height:7vw;
+	}	
+
+	form input[type=text]:focus{background:#828282; color:#fff;}
+	form input[type=number]:focus{background:#828282; color:#fff;}
+	form input[type=email]:focus{background:#828282; color:#fff;}
+}

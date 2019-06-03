@@ -1,0 +1,123 @@
+@media(max-width:600px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#containerLista{
+		margin-top:20vw;
+
+	    font-size: 3.50vw;
+
+	    width: 80%;
+	    height:auto;
+
+	    padding:6vw;
+	    padding-bottom:3vw;
+
+	    border-radius:0.40vw;
+
+	    box-shadow: 0 0 2vw #111;
+
+	}
+
+	select{
+		width:9vw;
+		height:8vw;
+
+		font-size: 3vw;
+	}
+
+	input[type=search]{
+		height:5.50vw;
+		width: 30vw;
+
+		font-size: 3.50vw;
+
+	}
+
+	table{
+		width:100%;
+	}
+
+	table th{
+		font-size: 4vw;
+	}
+
+	table td{
+		font-size: 3.50vw;
+	}
+
+	.noneMob{
+		display:none;
+	}
+
+	.aBtn{
+		margin-left: 1vw;
+	}
+
+	.inputBtn{
+		border: none;
+		font-size:3vw;
+		height:6vw;
+
+		transition: none;
+
+		margin-top:0.10vw;
+	}
+
+	.inputBtn:hover{
+		cursor: pointer;
+		background:#104E8B;
+		color:#fff;
+		border:none;
+	}
+
+	.inputBtn:active{
+		background: #102D61;
+	}
+
+	.tdAcoes{
+		
+	}
+
+	#btnVis{
+		width:30vw;
+		margin-bottom:0.20vw;
+	}
+
+	#btnEve{
+		width:30vw;
+	}
+
+	#quadroP{
+	   border-radius: 1vw;
+
+	   width:87vw;
+	   height:30vw;
+
+	   box-shadow: 0 0 1vw black;
+	}
+
+	#pNCad{
+		font-size: 4vw;
+	}
+
+	#btnCad{
+		font-size:4vw;
+		height:9vw;
+
+		transition: none;
+	}
+
+	#btnCad:hover{
+		cursor: normal;
+		background:#104E8B;
+		color:#fff;
+		border: none;
+	}
+
+	#btnCad:active{
+		background: #102D61;
+	}
+}

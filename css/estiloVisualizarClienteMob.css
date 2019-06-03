@@ -1,0 +1,111 @@
+@media(max-width:600px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	a #back{
+		/*Altura e largura do botão*/
+		width: 14vw;
+		height:14vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 1.50vw;
+		margin-top: 0.5vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+		/*Altura e largura*/
+	    width: 90vw;
+	    height: 100vw;
+
+	    /*Sombra do quadro*/
+	    box-shadow: 0 0 1vw black;
+
+	    margin-top:4vw;
+
+	    border-radius:1.20vw;
+	}
+
+	#containerInfo{
+
+	    /*Subindo 2px para ficar no centro*/
+	    margin-top:-1vw;
+	}
+
+	.info{
+		position: relative;
+		margin-left:-10vw;
+		font-size:3.30vw;
+		margin-top:3vw;
+	}
+
+	.btnAlt:hover{
+		/*Tipo de cursor*/
+		cursor: pointer;
+
+		/*Cor de fundo*/
+		background:#1E2025;
+	}
+
+	.btnAlt:active{
+		background:#696969;
+	}
+
+	.btAlign{
+		margin-left:32vw;
+		margin-top:7vw;
+	}
+
+	.btnAlt{
+		font-size: 3vw;
+
+		/*Tempo de transição*/
+		transition: none;
+
+		/*Altura dos botõs*/
+		width:28vw;
+		height: 8vw;
+	}
+
+	#btnEdit{
+		margin-left:-20vw;
+		margin-top:5vw;
+	}
+
+	#btnExc{
+		margin-top:5vw;
+		margin-left:9.12vw;
+		background:#CD0000;
+	}
+
+	#btnExc:hover{
+		background: #CD0000;
+	}
+
+	#btnExc:active{
+		background: #CD0000;
+	}
+
+	#btnCadEve{
+		margin-left:-20vw;
+	}
+
+	#btnVisEve{
+		margin-left:9.18vw;
+	}
+}

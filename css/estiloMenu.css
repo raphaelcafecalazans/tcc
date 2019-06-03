@@ -1,0 +1,95 @@
+body{
+	/*Zerando configurações de margem e padding*/
+	margin: 0;
+	padding: 0;
+}
+
+#menu{
+	/*Tamanho do menu*/
+	width: 100%;
+	height: 4.5vw;
+
+	/*Cor do menu*/
+	background: black;
+
+	line-height: 4.5vw;
+
+	position: fixed;
+	z-index:100;
+}
+
+#menuMob{
+	display:none;
+}
+
+.linkCentro{
+	/*Posição*/
+	position: absolute;
+
+	/*Posicionando texto na horizontal*/
+	left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+}
+
+#content a{
+	/*Configurção de fonte*/
+	text-decoration: none;
+	font-size: 1.16vw;
+	color: #F0FFFF;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	/*Separando links um dos outros*/
+	margin-left: 5.11vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+}
+
+#content a:hover{
+	/*Cor do link quando hover*/
+	color: #B4B4B4;
+}
+
+#menu input[type=submit]{
+
+	/*Separndo botão dos links*/
+	margin-right: 0.73vw;
+	margin-left: 90%;
+
+	/*Tirando a borda padrão do HTML*/
+	border: none;
+
+	/*Tamanho do botão*/
+	height: 2.55vw;
+	width:6.35vw;
+
+	/*Configurações da fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.16vw;
+	color: #F0FFFF;
+
+	/*Tempo de transição*/
+	transition: .6s;
+
+	/*Cor do botão*/
+	background: #CD0000;
+
+	margin-top: 0.97vw;
+}
+
+#menu input[type=submit]:hover{
+	/*Tipo de cursor*/
+	cursor: pointer;
+
+	/*Cores usadas*/
+	background:#fff;
+	color:#CD0000;
+}
+
+/*Quando pagina ativa*/
+body#areaAdministração a#areaAdministração, body#cadastroCliente a#cadastroCliente, body#listaCliente a#listaCliente{
+	/*Cor do link*/
+	color: 	#63B8FF;
+}
+

@@ -1,0 +1,220 @@
+@media(max-width:600px){
+	html, body{
+		margin:0;
+		padding:0;
+	}
+
+	.menuHome{
+		/*Posição do menu*/
+		position: absolute;
+
+		/*Configurações de altura e largura do menu*/
+		width: 100%;
+		height: 18vw;
+
+		/*Cor da div*/
+		background: black;
+
+		/*Maior prioridade para aparecer na frente de outras divs*/
+		z-index: 100;
+	}
+
+	.menuHome img{
+		margin-top:4vw;
+		margin-left:2vw;
+		width: auto;
+		height:10vw;
+		position: absolute;
+		cursor: pointer;
+	}
+
+	/*Conteudo (links e btns) do menu*/
+	#contentLink{
+		display:none;
+	}
+
+	#menuMob{
+		margin-top:-1vw;
+		display: block;
+		z-index:200;
+	}
+
+	#menuMob img{
+		width: 12vw;
+		height:12vw;
+
+		margin-left:86%;
+		margin-top:-1.50vw;
+		position: absolute;
+	}
+
+	#menuMob img:active{
+		content: url("../img/logo/menuIconAct.png");
+	}
+
+	.quadroTransp{
+		position: absolute;
+		width:43vw;
+		height:43vw;
+		background:#363636;
+		margin-left:40vw;
+		border-radius:1vw;
+		display: none;
+
+		/*Sombra*/
+		box-shadow: 0 0 2vw #000;	
+	}
+
+	#menuMob .menuList{
+		width: 40vw;
+		margin-left:38vw;
+		margin-top:4.60vw;
+	}
+
+	#menuMob .menuList a li{
+		top:2vw;
+		height:9vw;
+		width:100%;
+		list-style: none;
+		position: relative;
+		float: left;
+		display: none;
+	}
+
+	#menuMob .menuList a li{
+		font-size: 4vw;
+		color: #fff;
+	}
+
+	#slider{
+		display: none;
+	}
+
+	#sliderMob{
+		display:block;
+
+		/*Slider escondido*/
+		overflow: hidden;
+	}
+
+	#sliderMob figure{
+		/*Tamanhos da figure*/
+		width:100%;
+		height:100%;
+
+		/*Tipo de posição*/
+		position: relative;
+
+		/*Tamanho de 100% das imagens juntas*/
+		width: 500%;
+		margin: 0;
+		left: 0;
+
+		/*Animação do slider*/
+		animation: 20s slider infinite;
+	}
+
+	#sliderMob figure .contentSlideMob img{
+		/*Configurações da imagem*/
+		width: 20%;
+		float: left;
+
+		height:130vw;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	#TitleBack{
+		background:#1C1C1C;
+		width:100%;
+		height:37vw;
+		color:#fff;
+		margin-top:-5vw;
+
+		
+	}
+
+	#TitleBack img{
+		width:14.50vw;
+		height:14.50vw;
+
+		position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translateX(-50%);
+
+        margin-top:4vw;
+
+        display: block;
+	}
+
+	#textoFuncTit{
+		margin-top:16.40vw;
+	}
+
+	#tituloFuncionalidades{
+		font-size:5vw;
+	}
+
+	#subtituloFuncionalidades{
+		font-size:3.50vw;
+		margin-top:-4vw;
+	}
+
+	.funcBloco{
+		display:block;
+		text-align: center;
+		width:98%;
+		margin:0;
+	}
+
+	#cadClientes{
+		width:100%;
+		margin-top: 6vw;
+	}
+
+	#visEventos{
+		width:100%;
+		margin-top:10vw;
+	}
+
+	#cadClientes{
+		float: none;
+	}
+
+	#visEventos{
+		float:none;
+	}
+
+	.funcBloco{
+		padding-right:0;
+		padding-left:0;
+	}
+
+	.funcBloco h4{
+		font-size:4.50vw;
+	}
+
+	#cadClientes p{
+		font-size:3.30vw;
+		padding-right:4.30vw;
+		padding-left:4.30vw;
+	}
+
+	#visEventos p{
+		font-size:3.30vw;
+		padding-right:6vw;
+		padding-left:6vw;
+	}
+
+	#infoInferior{
+		height:15vw;
+		text-align: center;
+	}
+
+	#infoInferior p{
+		/*Configurações de fonte*/
+		font-size: 3.50vw;
+	}
+
+}

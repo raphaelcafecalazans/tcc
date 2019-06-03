@@ -1,0 +1,97 @@
+@media(max-width:600px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#quadro{
+		/*Cor de fundo*/
+		background:#121219;
+
+		/*Tamanho da div*/
+		width: 78vw;
+		height:90vw;
+
+	    /*Borda arredontada*/
+	    border-radius:1vw;
+
+	    margin-top:6vw;
+	}
+
+	#tituloCadCli{
+		/*Tamanho do titulo (Cadastro de Clientes)*/
+		font-size: 6vw;
+
+		margin-top: 1vw;
+	}
+
+	#containerCentro{
+		margin-top:7vw;
+	}
+
+	#FormContent{
+		margin-top:-4vw;
+	}
+
+	.sumirMob{
+		display:none;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  		color: #363636;
+	}
+
+	#msgContent{
+		width: 60vw;
+		height: 6vw;
+		background: black;
+
+		line-height: 6vw;
+
+		font-size: 3.50vw;
+
+		color: #fff;
+	}
+
+	td input[type=text], td input[type=email], td input[type=number]{
+		/*Tamanho dos inputs*/
+		height: 6vw;
+		width: 60vw;
+
+		font-size: 3.50vw;
+		
+		/*Tempo de transição*/
+		transition: none;
+
+		/*Espaço dentro do input*/
+		padding:0.1vw;
+
+		text-align:center;
+	}
+
+	select{
+
+		/*Configurações de espaço*/
+		height: 5.10vw;
+		width: 60vw;
+
+		font-size: 3vw;
+
+		text-align-last: center;
+
+	}
+
+	td input[type=submit]{
+		/*Tamanho dos inputs*/
+		height: 7vw;
+		width: 60vw;
+
+		font-size: 3vw;
+
+		/*Tipo de cursor*/
+		cursor: normal;
+	}
+
+
+
+}
